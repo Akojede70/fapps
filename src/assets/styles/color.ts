@@ -1,0 +1,16 @@
+export const COLORS = {
+    transparent: 'transparent',
+    white: '#ffffff',
+    black: '#000000',
+    primary: '#9c27b0',
+    primary300: '#8BB2CE',
+    placeholder: '#94A3B8',
+    menuIcon: '#9FA09F',
+    error: '#E11D48',
+    neutral: '#D6D6D6',
+    neutral50: '#667182',
+    warning: '#D97706',
+    success: '#10B981',
+    confirmed: '#0096FF',
+    newBlack: '#333333',
+};

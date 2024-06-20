@@ -1,0 +1,96 @@
+input[type='checkbox'] {
+    background-color: #18669d;
+}
+
+input[type='date']:invalid::-webkit-datetime-edit {
+    color: #999;
+}
+
+input::-webkit-calendar-picker-indicator {
+    color: #18669d;
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="15" viewBox="0 0 24 24"><path fill="%23bbbbbb" d="M20 3h-1V1h-2v2H7V1H5v2H4c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 18H4V8h16v13z"/></svg>');
+}
+
+/* input[aria-invalid='false'] {
+    border: 3px solid green;
+  }
+  input[aria-invalid='true'] {x
+    border: 3px solid red;
+  } */
+
+.input_container {
+    padding-top: 0.5rem
+        /* 8px */
+    ;
+    padding-bottom: 0.5rem
+        /* 8px */
+    ;
+}
+
+.input_label {
+    padding-bottom: 0.25rem
+        /* 4px */
+    ;
+    font-size: 1rem
+        /* 16px */
+    ;
+
+    font-weight: bold;
+
+    line-height: 1.5rem;
+    color: #9b9494
+        /* 24px */
+    ;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.inputField_container {
+    height: 100%;
+    overflow: hidden;
+    font-size: 1rem
+        /* 16px */
+    ;
+    display: flex;
+    height: 3.8rem
+        /* 56px */
+    ;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.inputField_container:last-child {
+    margin-bottom: 0px;
+}
+
+.input_field {
+    height: 100%;
+    width: 100%;
+    padding-left: 1.25rem
+        /* 20px */
+    ;
+    padding-right: 1.25rem
+        /* 20px */
+    ;
+    border: 1.6px solid rgb(163, 160, 160);
+    border-radius: 5px;
+    font-size: 18px;
+    color: #000;
+}
+
+.input_field::placeholder {
+    color: #9e9797;
+    font-size: 16px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.input_field:focus {
+    border: 1.5px solid #34A56F;
+    outline-offset: 2px;
+}
+
+.password_Icon {
+    margin-left: -2.5rem
+        /* -40px */
+    ;
+    cursor: pointer;
+}
